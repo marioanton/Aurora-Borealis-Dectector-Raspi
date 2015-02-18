@@ -8,4 +8,6 @@ Neccesary items to get Aurora Detector Raspi based.
 - Xymon Client installed in Raspberry [sudo apt-get install hobbit-client]
 - Patience
 
+Not going to talk about raspberrypi installation.
 
+## Magnetometer installation/dectection ##
