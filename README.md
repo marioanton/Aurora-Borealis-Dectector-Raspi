@@ -88,6 +88,6 @@ I used this one:
 https://github.com/marioamas/Aurora-Borealis-Dectector-Raspi/blob/master/plotter.py
 ````
 i got something like this, not pretty accurate but close.
-```
+
 ![plot](https://lh6.googleusercontent.com/Jhz0yvuhDhH7zMvppZkHNWCl86velXU6n1yZywYEkbge9Qqjjuz3q2D2DN6KAGBYBxcsg-ch5OcpogEJuFfMbrahwgpYa3we=w1416-h614)
-```
+
