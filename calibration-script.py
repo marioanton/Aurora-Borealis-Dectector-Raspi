@@ -11,4 +11,4 @@ XLoBorg.printFunction = XLoBorg.NoPrint
 XLoBorg.Init()
 
 # Read and display the raw magnetometer readings
-print 'mX = %+06d, mY = %+06d, mZ = %+06d' % XLoBorg.ReadCompassRaw()
+print '%+06d,%+06d,%+06d' % XLoBorg.ReadCompassRaw()
