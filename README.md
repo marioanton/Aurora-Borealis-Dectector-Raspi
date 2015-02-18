@@ -91,3 +91,10 @@ i got something like this, not pretty accurate but close.
 
 ![plot](https://lh6.googleusercontent.com/Jhz0yvuhDhH7zMvppZkHNWCl86velXU6n1yZywYEkbge9Qqjjuz3q2D2DN6KAGBYBxcsg-ch5OcpogEJuFfMbrahwgpYa3we=w1416-h614)
 
+## Collecting data and sending it to Xymon Server  ##
+
+This script i built will do the job.
+- script
+
+Hobbit/Xymon Client configuration needed as well.
+-xymon config
