@@ -54,4 +54,12 @@ Basically this consists of
 Here is where patience takes place since i had neither a robot nor a automatic way to move the magentomeneter in every direction for a long period of time (5000 seconds)
 
 I used the following script: 
+```
 https://github.com/marioamas/Aurora-Borealis-Dectector-Raspi/blob/master/calibration-script.py
+````
+The script is pretty simple. In addition to it, you will have to run this as well:
+
+````
+for i in {1..5000}; do ./ReadCompassRaw.py >> data.csv;sleep 1;done
+````
+At sametime  this script is being executed, be prepare to move the magnetometer in every direction, upside down included :P
