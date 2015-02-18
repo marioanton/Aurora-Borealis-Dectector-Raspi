@@ -10,7 +10,7 @@ Neccesary items to get Aurora Detector Raspi based.
 
 Not going to talk about raspberrypi installation.
 
-## Magnetometer installation/dectection ##
+## Magnetometer installation/detection ##
 
 Once we get the product at home and with the RaspBerryPi switched off, we proceed to assembly it to the GPIO. 
 Since the Xloborg is a magnetomer specifically adapted, there is no need to adapt anything. Just plug it and bingo.
