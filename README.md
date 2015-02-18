@@ -6,7 +6,7 @@ Neccesary items to get Aurora Detector Raspi based.
 - Xloborg magnetometer [https://www.piborg.org/xloborg]
 - VM with Xymon Monitor Server [http://xymon.sourceforge.net/xymon/help/install.html]
 - Xymon Client installed in Raspberry [sudo apt-get install hobbit-client]
-- Patience
+- Give PI user root sudo with NOPASSWORD to ALL commands.
 
 Not going to talk about raspberrypi installation.
 
@@ -40,4 +40,11 @@ You will be getting:(otherwise you have done something wrong)
 
 
 From these values, we will be looking after mX,mY and mZ ones.
+Now, we have installed the magnetometer
+
+## Calibrating mangenotmeter ##
+
+
+
+
 
