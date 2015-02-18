@@ -71,3 +71,10 @@ The output would be something similar to (where first colum is X, second is Y an
 -00605, +00462, +02026
 -00604, +00455, +02026
 ````
+
+So, once we have gathered the data, we just take the max and the min using for instance, excel, python or whatever.
+Having those values for each column, we wil be having something like this
+
+X Diff = (maxX + minX)/2
+Y Diff = (maxY + minY)/2
+X Diff = (maxZ + minZ)/2
