@@ -1,4 +1,4 @@
-# Aurora-Borealis-Raspi
+# Aurora-Borealis-Detector-Raspi
 This project meant to exist because of auroras hobby came to my life.
 This is a manual for beginners, as i am on this science field. Feel free to correct me. Been trying to get the most accurate but according to hw used and knowledge
 
