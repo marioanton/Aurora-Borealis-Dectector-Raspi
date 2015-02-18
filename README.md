@@ -54,4 +54,34 @@ Basically this consists of
 Here is where patience takes place since i had neither a robot nor a automatic way to move the magentomeneter in every direction for a long period of time (5000 seconds)
 
 I used the following script: 
+```
+https://github.com/marioamas/Aurora-Borealis-Dectector-Raspi/blob/master/calibration-script.py
+````
+The script is pretty simple. In addition to it, you will have to run this as well:
+
+````
+for i in {1..5000}; do ./ReadCompassRaw.py >> data.csv;sleep 1;done
+````
+At sametime  this script is being executed, be prepare to move the magnetometer in every direction, upside down included :P
+
+The output would be something similar to (where first colum is X, second is Y and third is Z)
+````
+-00602, +00462, +02022
+-00605, +00461, +02021
+-00605, +00462, +02026
+-00604, +00455, +02026
+````
+
+So, once we have gathered the data, we just take the max and the min using for instance, excel, python or whatever.
+Having those values for each column, we wil be having something like this
+
+```
+X Diff = (maxX + minX)/2
+Y Diff = (maxY + minY)/2
+X Diff = (maxZ + minZ)/2
+```
+Note that these values will be needed afterwards.
+
+To check if the magnetometer has been properly calibrated you can use 3D Plot functions from python libs.
+I used this one:
 
