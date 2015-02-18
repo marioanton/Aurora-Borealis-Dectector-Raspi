@@ -94,10 +94,11 @@ i got something like this, not pretty accurate but close.
 ## Collecting data and sending it to Xymon Server  ##
 
 This script i built will do the job.
--  ReadCompassRaw.py -> 
--  Change BBDISPLAY accordingly. (not needed since it is taken from BBENV, but there it is anyway)
+- Gathering data script
+  ReadCompassRaw.py -> https://github.com/marioamas/Aurora-Borealis-Dectector-Raspi/blob/master/ReadCompassRaw.py
+  Change BBDISPLAY accordingly within file. (not needed since it is taken from BBENV, but there it is anyway)
 
-Hobbit/Xymon Client configuration needed as well.
+- Hobbit/Xymon Client configuration needed as well.
  on clientlaunch.cfg:
  ````
  [kp]
@@ -106,4 +107,25 @@ Hobbit/Xymon Client configuration needed as well.
         LOGFILE $HOBBITCLIENTHOME/xymon-kp.log
         INTERVAL 2m
 ````
+- Server config as well
+on graphs.cfg
+````
+[kp]
+           TITLE kp
+           YAXIS kp
+           DEF:kp=kp.rrd:kp:AVERAGE
+           LINE2:kp#@COLOR@:kp
+           GPRINT:kp:LAST:Current\: %5.2lf%s C
+           GPRINT:kp:MAX:Max\: %5.2lf%s C
+           GPRINT:kp:MIN:Min\: %5.2lf%s C
+           GPRINT:kp:AVERAGE:Avg\: %5.2lf%s C\n
+````
+on xymonserver.cfg add:
+
+````
+kp=ncv  => to TEST2RRD var, without deleting any other
+NCV_kp="kp:GAUGE" => as a new line
+
+````
+
 
