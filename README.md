@@ -94,7 +94,16 @@ i got something like this, not pretty accurate but close.
 ## Collecting data and sending it to Xymon Server  ##
 
 This script i built will do the job.
-- script
+-  ReadCompassRaw.py -> 
+-  Change BBDISPLAY accordingly. (not needed since it is taken from BBENV, but there it is anyway)
 
 Hobbit/Xymon Client configuration needed as well.
--xymon config
+ on clientlaunch.cfg:
+ ````
+ [kp]
+        ENVFILE $HOBBITCLIENTHOME/etc/hobbitclient.cfg
+        CMD $HOBBITCLIENTHOME/ext/ReadCompassRaw.py
+        LOGFILE $HOBBITCLIENTHOME/xymon-kp.log
+        INTERVAL 2m
+````
+
