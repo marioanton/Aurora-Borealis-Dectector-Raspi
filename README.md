@@ -63,3 +63,11 @@ The script is pretty simple. In addition to it, you will have to run this as wel
 for i in {1..5000}; do ./ReadCompassRaw.py >> data.csv;sleep 1;done
 ````
 At sametime  this script is being executed, be prepare to move the magnetometer in every direction, upside down included :P
+
+The output would be something similar to (where first colum is X, second is Y and third is Z)
+````
+-00602, +00462, +02022
+-00605, +00461, +02021
+-00605, +00462, +02026
+-00604, +00455, +02026
+````
