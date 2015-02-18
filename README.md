@@ -26,3 +26,15 @@ In order to get the Xloborg magnetometer recognized by the raspi, we proceed wit
   sudo chmod +x install.sh
   sudo ./install.sh
 ```
+
+We wil be having created several folders/files.
+go into and execute it
+````
+  sudo cd ~/xloborg
+  sudo ./XLoBorg.py
+````
+
+You will be getting:
+
+![Working](https://www.piborg.org/images/XLoBorg/example-test.png)
+
