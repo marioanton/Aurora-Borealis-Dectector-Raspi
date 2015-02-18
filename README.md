@@ -80,3 +80,8 @@ X Diff = (maxX + minX)/2
 Y Diff = (maxY + minY)/2
 X Diff = (maxZ + minZ)/2
 ```
+Note that these values will be needed afterwards.
+
+To check if the magnetometer has been properly calibrated you can use 3D Plot functions from python libs.
+I used this one:
+
