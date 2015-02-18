@@ -1,4 +1,4 @@
-# Aurora-Borealis-Raspi
+# Aurora-Borealis-Detector-Raspi
 This project meant to exist because of auroras hobby came to my life.
 This is a manual for beginners, as i am on this science field. Feel free to correct me. Been trying to get the most accurate but according to hw used and knowledge
 
@@ -84,4 +84,17 @@ Note that these values will be needed afterwards.
 
 To check if the magnetometer has been properly calibrated you can use 3D Plot functions from python libs.
 I used this one:
+````
+https://github.com/marioamas/Aurora-Borealis-Dectector-Raspi/blob/master/plotter.py
+````
+i got something like this, not pretty accurate but close.
 
+![plot](https://lh6.googleusercontent.com/Jhz0yvuhDhH7zMvppZkHNWCl86velXU6n1yZywYEkbge9Qqjjuz3q2D2DN6KAGBYBxcsg-ch5OcpogEJuFfMbrahwgpYa3we=w1416-h614)
+
+## Collecting data and sending it to Xymon Server  ##
+
+This script i built will do the job.
+- script
+
+Hobbit/Xymon Client configuration needed as well.
+-xymon config
