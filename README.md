@@ -18,10 +18,11 @@ This is not rocket science.
 
 Switch raspi ON.
 In order to get the Xloborg magnetometer recognized by the raspi, we proceed with following commands.
-
+```
   sudo mkdir ~/xloborg
   sudo cd ~/xloborg
   sudo wget http://www.piborg.org/downloads/xloborg/examples.zip
   sudo unzip examples.zip
   sudo chmod +x install.sh
   sudo ./install.sh
+```
