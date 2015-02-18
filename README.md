@@ -8,6 +8,7 @@ Neccesary items to get Aurora Detector Raspi based.
 - VM with Xymon Monitor Server [http://xymon.sourceforge.net/xymon/help/install.html]
 - Xymon Client installed in Raspberry [sudo apt-get install hobbit-client]
 - Give PI user root sudo with NOPASSWORD to ALL commands.
+- A basic conception of how auroras are played in our earth https://www.youtube.com/watch?v=L_k92H7KQAg and how to know if they will happen
 
 Not going to talk about raspberrypi installation.
 
@@ -145,3 +146,13 @@ I got, comparing with the magnetometers located in Lancaster University, same va
 Here a capture of the graph generated.
 
 ![XYMON] (https://lh5.googleusercontent.com/AStx6nR0W-EPMstpCRS5ujClx8tp7_l5ncbDZRnwZGwqAumumoPGyb8Moata_RG732lCqdTVWpA=w1416-h614)
+
+
+Info gathered from:
+http://www.camelsoftware.com/firetail/blog/uavs/3-axis-magnetometer-calibration-a-simple-technique-for-hard-soft-errors/
+http://rwsarduino.blogspot.co.uk/2013/01/inertial-orientation-sensing.html
+http://upload.wikimedia.org/wikipedia/commons/c/c7/WMM2010_F_MERC.pdf
+https://github.com/Black-Pixel/Arduino/blob/master/magneticFieldStrength/magneticFieldStrength.ino
+
+
+enjoy and distribute!!!
