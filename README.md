@@ -129,3 +129,19 @@ NCV_kp="kp:GAUGE" => as a new line
 ````
 
 
+## Checking the info we are getting ##
+
+Aside the whole info given above, you can add alerts by when the magnetic field varies more than 50 units (nano teslas i think the value is). 
+
+We have to bear in mind several factors could alter the data:
+
+- magnetic filed noise caused by TV blablabla
+- magnetic field noise caused by Raspberry itself
+- if not well calibrated, place the magnetometer in fixed place.
+- If you are located far from north, south pole you wont appreciate this variation. I am living in Newcastle (UK)
+
+I got, comparing with the magnetometers located in Lancaster University, same variations at same time. http://aurorawatch.lancs.ac.uk/
+
+Here a capture of the graph generated.
+
+
