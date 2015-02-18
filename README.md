@@ -1,5 +1,6 @@
 # Aurora-Borealis-Raspi
 This project meant to exist because of auroras hobby came to my life.
+This is a manual for beginners, as i am on this science field. Feel free to correct me. Been trying to get the most accurate but according to hw used and knowledge
 
 Neccesary items to get Aurora Detector Raspi based. 
 - Raspberry PI (Model B+ the one i used) [https://www.modmypi.com/]
@@ -44,7 +45,13 @@ Now, we have installed the magnetometer
 
 ## Calibrating mangenotmeter ##
 
+Basically this consists of 
 
+ - getting values from three axis given
+ - and on each axis based, get the min value and  the max one
+ - having the difference for each one, plus to the normal value you get
 
+Here is where patience takes place since i had neither a robot nor a automatic way to move the magentomeneter in every direction for a long period of time (5000 seconds)
 
+I used the following script: 
 
