@@ -120,7 +120,7 @@ on graphs.cfg
            GPRINT:kp:MIN:Min\: %5.2lf%s C
            GPRINT:kp:AVERAGE:Avg\: %5.2lf%s C\n
 ````
-on xymonserver.cfg add:
+- on xymonserver.cfg add:
 
 ````
 kp=ncv  => to TEST2RRD var, without deleting any other
