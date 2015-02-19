@@ -38,7 +38,7 @@ go into and execute it
 
 You will be getting:(otherwise you have done something wrong)
 Check this image:
-https://www.piborg.org/images/XLoBorg/example-test.png
+![ex](https://www.piborg.org/images/XLoBorg/example-test.png)
 
 From these values, we will be looking after mX,mY and mZ ones.
 Now, we have installed the magnetometer
