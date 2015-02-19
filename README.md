@@ -37,8 +37,8 @@ go into and execute it
 ````
 
 You will be getting:(otherwise you have done something wrong)
-![Working](https://www.piborg.org/images/XLoBorg/example-test.png)
-
+Check this image:
+https://www.piborg.org/images/XLoBorg/example-test.png
 
 From these values, we will be looking after mX,mY and mZ ones.
 Now, we have installed the magnetometer
@@ -89,7 +89,7 @@ https://github.com/marioamas/Aurora-Borealis-Dectector-Raspi/blob/master/plotter
 ````
 i got something like this, not pretty accurate but close.
 
-![plot](https://lh6.googleusercontent.com/WJox9KyD847UUiGrpy2BPXnyAQ-p5DfWuewuGqeoVvnEidakUvQo5OheNwEEc7w1nHMxHHjzp_sH27gp4szX_5iCozYOTGI4=w1416-h614)
+Check this image -> https://lh6.googleusercontent.com/WJox9KyD847UUiGrpy2BPXnyAQ-p5DfWuewuGqeoVvnEidakUvQo5OheNwEEc7w1nHMxHHjzp_sH27gp4szX_5iCozYOTGI4=w1416-h614
 
 ## Collecting data and sending it to Xymon Server  ##
 
@@ -144,7 +144,7 @@ I got, comparing with the magnetometers located in Lancaster University, same va
 
 Here a capture of the graph generated.
 
-![G](https://lh3.googleusercontent.com/-GGi_6dHKpagDOsEGxpnKwao0pu7hElrOaZZbonW7zBAWvR3TxNfEoxDu7PEvIp8UtRoYlPQAmg=w1416-h614)
+Check it out -> https://lh3.googleusercontent.com/-GGi_6dHKpagDOsEGxpnKwao0pu7hElrOaZZbonW7zBAWvR3TxNfEoxDu7PEvIp8UtRoYlPQAmg=w1416-h614
 
 Info gathered from:
 ````
