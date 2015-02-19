@@ -149,10 +149,11 @@ Here a capture of the graph generated.
 
 
 Info gathered from:
+````
 http://www.camelsoftware.com/firetail/blog/uavs/3-axis-magnetometer-calibration-a-simple-technique-for-hard-soft-errors/
 http://rwsarduino.blogspot.co.uk/2013/01/inertial-orientation-sensing.html
 http://upload.wikimedia.org/wikipedia/commons/c/c7/WMM2010_F_MERC.pdf
 https://github.com/Black-Pixel/Arduino/blob/master/magneticFieldStrength/magneticFieldStrength.ino
-
+````
 
 enjoy and distribute!!!
