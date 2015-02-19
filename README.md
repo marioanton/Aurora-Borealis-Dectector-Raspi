@@ -60,7 +60,7 @@ https://github.com/marioamas/Aurora-Borealis-Dectector-Raspi/blob/master/calibra
 The script is pretty simple. In addition to it, you will have to run this as well:
 
 ````
-for i in {1..5000}; do ./ReadCompassRaw.py >> data.csv;sleep 1;done
+for i in {1..5000}; do ./calibration-script.py >> data.csv;sleep 1;done
 ````
 At sametime  this script is being executed, be prepare to move the magnetometer in every direction, upside down included :P
 
