@@ -90,7 +90,7 @@ https://github.com/marioamas/Aurora-Borealis-Dectector-Raspi/blob/master/plotter
 ````
 i got something like this, not pretty accurate but close.
 
-![plot](https://lh6.googleusercontent.com/Jhz0yvuhDhH7zMvppZkHNWCl86velXU6n1yZywYEkbge9Qqjjuz3q2D2DN6KAGBYBxcsg-ch5OcpogEJuFfMbrahwgpYa3we=w1416-h614)
+![plot](https://lh5.googleusercontent.com/58bbgKlwBJU1NIA5WbtTKI_1flaWXcNetQ7MJvfwruFADI2t2dkUC7L8YZP8H3ItrdTPfWg_NHB9nqh5oJPnRxvcjyWpWTUJ=w1890-h805)
 
 ## Collecting data and sending it to Xymon Server  ##
 
