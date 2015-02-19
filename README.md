@@ -145,8 +145,7 @@ I got, comparing with the magnetometers located in Lancaster University, same va
 
 Here a capture of the graph generated.
 
-https://lh6.googleusercontent.com/k1tiHwHK1r5QpGJLDXyTILvAQtgXbflVHnx0Bc0zNHM6ZXqaskompRTwYC6MMTiSz9mKhTRjBg8=w1416-h614
-
+![G](https://lh3.googleusercontent.com/-GGi_6dHKpagDOsEGxpnKwao0pu7hElrOaZZbonW7zBAWvR3TxNfEoxDu7PEvIp8UtRoYlPQAmg=w1416-h614)
 
 Info gathered from:
 ````
