@@ -37,8 +37,7 @@ go into and execute it
 ````
 
 You will be getting:(otherwise you have done something wrong)
-
-![Working](https://lh6.googleusercontent.com/WJox9KyD847UUiGrpy2BPXnyAQ-p5DfWuewuGqeoVvnEidakUvQo5OheNwEEc7w1nHMxHHjzp_sH27gp4szX_5iCozYOTGI4=w1416-h614)
+![Working](https://www.piborg.org/images/XLoBorg/example-test.png)
 
 
 From these values, we will be looking after mX,mY and mZ ones.
@@ -90,7 +89,7 @@ https://github.com/marioamas/Aurora-Borealis-Dectector-Raspi/blob/master/plotter
 ````
 i got something like this, not pretty accurate but close.
 
-![plot](https://lh5.googleusercontent.com/58bbgKlwBJU1NIA5WbtTKI_1flaWXcNetQ7MJvfwruFADI2t2dkUC7L8YZP8H3ItrdTPfWg_NHB9nqh5oJPnRxvcjyWpWTUJ=w1890-h805)
+![plot](https://lh6.googleusercontent.com/WJox9KyD847UUiGrpy2BPXnyAQ-p5DfWuewuGqeoVvnEidakUvQo5OheNwEEc7w1nHMxHHjzp_sH27gp4szX_5iCozYOTGI4=w1416-h614)
 
 ## Collecting data and sending it to Xymon Server  ##
 
