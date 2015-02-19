@@ -89,7 +89,7 @@ https://github.com/marioamas/Aurora-Borealis-Dectector-Raspi/blob/master/plotter
 ````
 i got something like this, not pretty accurate but close.
 
-Check this image -> https://lh6.googleusercontent.com/WJox9KyD847UUiGrpy2BPXnyAQ-p5DfWuewuGqeoVvnEidakUvQo5OheNwEEc7w1nHMxHHjzp_sH27gp4szX_5iCozYOTGI4=w1416-h614
+![plot](http://www.objetonoencontrado.com/ax3d.jpg)
 
 ## Collecting data and sending it to Xymon Server  ##
 
